@@ -15,9 +15,9 @@ public class Carlson extends Human implements Flyable {
     }
 
     @Override
-    public void changeAltitude(Diretion diretion) {
-        if     (diretion == Diretion.UP)                                   System.out.println(name + " набрал высоту");
-        else if(diretion == Diretion.DOWN && flyMode != FlyMode.ON_GROUND) System.out.println(name + " снизил высоту");
+    public void changeAltitude(Direction direction) {
+        if     (direction == Direction.UP)                                   System.out.println(name + " набрал высоту");
+        else if(direction == Direction.DOWN && flyMode != FlyMode.ON_GROUND) System.out.println(name + " снизил высоту");
     }
 
     @Override

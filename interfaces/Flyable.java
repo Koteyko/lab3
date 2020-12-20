@@ -5,7 +5,7 @@ import entities.Entity;
 
 public interface Flyable {
     void flyUp();
-    void changeAltitude(Diretion direction);
+    void changeAltitude(Direction direction);
     void flyTo(Location location);
     void flyTo(Entity entity);
     void flyAround(Location location);
@@ -17,7 +17,7 @@ public interface Flyable {
         FLOATING,
         FLYING,
     }
-    enum Diretion{
+    enum Direction{
         UP,
         DOWN
     }

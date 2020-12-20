@@ -28,8 +28,4 @@ public abstract class Entity {
     public String toString(){
         return "Entity{" + "name=" + name + "}";
     }
-    @Override
-    public int hashCode(){
-        return Objects.hash(name);
-    }
 }

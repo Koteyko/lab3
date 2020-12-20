@@ -9,7 +9,7 @@ public class Main {
         Human kid = new Human("Малыш", Location.ROOM);
 
         carlson.lookAt(kid); //Карлсон окинул Малыша внимательным, долгим взглядом
-        carlson.changeAltitude(Flyable.Diretion.UP); //Набрав высоту
+        carlson.changeAltitude(Flyable.Direction.UP); //Набрав высоту
         carlson.flyAround(Location.ROOF); //сделал небольшой круг над крышей
         carlson.flyAround(Location.PIPE); //облетел вокруг трубы
         carlson.flyTo(Location.WINDOW); //повернул назад, к окну
